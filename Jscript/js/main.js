@@ -21,5 +21,37 @@ for (count = 0; count <= 5; count++) {
     alert(count);
 };*/
 
-var d = new Date();
-alert(d);
+//var d = new Date();
+//alert(d);
+
+/*function soma(n1, n2) {
+    return n1 + n2;
+}
+
+alert(soma(5, 10));*/
+
+function clicou() {
+    //alert("Obrigado por clicar");
+    document.getElementById("agradecimento").innerHTML = "Obrigado por clicar";
+}
+
+function redirecionar() {
+    window.open("https://www.randstad.com.br/");
+}
+
+function trocar() {
+    //alert("trocar texto");
+    document.getElementById("mousemove").innerHTML = "obrigado por passar o mouse aqui";
+}
+
+function voltar() {
+    document.getElementById("mousemove").innerHTML = "<b>passe o mouse aqui</b>";
+}
+
+function load() {
+    alert("pagina carregada");
+}
+
+function funcaoChange(elemento) {
+    alert(elemento.value);
+}

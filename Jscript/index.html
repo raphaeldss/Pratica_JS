@@ -8,8 +8,19 @@
     <title>Minha Página</title>
 </head>
 
-<body>
+<body onload="load()">
     <h1>Meus projetos JS</h1>
+    <button type="button" onclick="clicou()">Abra aqui</button>
+
+    <p id="agradecimento" onclick="redirecionar()"></p>
+    <p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">passe o mouse aqui </p>
+
+
+    <select onchange="funcaoChange(this)">
+    <option value="1">Valor 1</option>
+    <option value="2">Valor 2</option>
+    <option value="3">Valor 3</option>
+    </select>
 </body>
 
 </html>
